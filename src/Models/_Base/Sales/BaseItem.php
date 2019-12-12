@@ -54,6 +54,7 @@ class BaseItem extends Model {
     public function getAttributes() {
         return [
             'id',
+            'sku',
             'name',
             'amount_ordered',
             'amount_invoiced',
